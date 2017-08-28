@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>Sistema de Inventario de AMDC</title>
+</head>
+<body id="page-info">
+    <main class= "info-content">
+        <h1 class="page-headline"> AMDC </h1>
+        <p>
+            Bienvenido al Sistema de Inventario de la Alcaldia Municipal del distrito central.
+        </p>
+        <img src="AMDC.jpg" alt="AMDC">
+        <form>
+            Usuario:<input id="username" type="text" name="user"/>
+            <br/>
+            Contrase&ntilde;a:<input id = "password" type="password" name="pass"/>
+        </form>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBlZvbloB8LkYTeWaWi_gc5Jm-W6ptelCk",
+        authDomain: "inventarioamdc.firebaseapp.com",
+        databaseURL: "https://inventarioamdc.firebaseio.com",
+        projectId: "inventarioamdc",
+        storageBucket: "",
+        messagingSenderId: "513794610794"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src = "main.js"></script>
+</script>
+</body>
+</html>
