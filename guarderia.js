@@ -24,8 +24,7 @@ informacion = function() {
 }
 
 var crearLink = function(a) {
-    var data = '<br><button type="button" id = "'+a+'" class="btn btn-default btn-lg" onclick="irseInventario(this.id)" >' + a + '</button> <br>';
-    console.log(data);
+    var data = '<br><button type="button" id = "'+a+'" class="btn btn-cons azulClaro" onclick="irseInventario(this.id)" >' + a + '</button> <br>';
     $('#linkInventario').append(data);
 }
 
